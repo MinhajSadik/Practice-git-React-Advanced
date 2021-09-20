@@ -3,7 +3,8 @@ import './App.css';
 // import ClassCounter from './Components/Counter/ClassCounter';
 // import Counter from './Components/Counter/Counter';
 // import HookObject from './Components/HooksObject/HooksObject';
-import UseEffectHook from './Components/UseEffectHook/ClassHook';
+// import UseEffectHook from './Components/UseEffectHook/ClassHook';
+import FunctionalHook from './Components/UseEffectHook/FunctionalHook';
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <ClassCounter/> */}
       {/* <HookObject/> */}
       {/* <HooksArray/> */}
-      <UseEffectHook/>
+      {/* <UseEffectHook/> */}
+      <FunctionalHook/>
     </div>
   );
 }
