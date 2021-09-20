@@ -8,6 +8,7 @@ const FunctionalHooks = () => {
         console.log(`useEffect - document title`);
         document.title = `Clicked ${count} times`;
     }, [count])
+    
     return (
         <div>
             <input type="text"

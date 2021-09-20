@@ -6,7 +6,9 @@ import './App.css';
 // import UseEffectHook from './Components/UseEffectHook/ClassHook';
 // import FunctionalHook from './Components/UseEffectHook/FunctionalHook';
 // import ClassHooks from './Components/UseEffectHook/ClassHooks';
-import FunctionalHooks from './Components/UseEffectHook/FunctionalHooks';
+// import FunctionalHooks from './Components/UseEffectHook/FunctionalHooks';
+// import ClassMouse from './Components/ClassMouse/ClassMouse';
+import FunctionalMouse from './Components/ClassMouse/FunctionalMouse';
 
 const App = () => {
   return (
@@ -18,7 +20,9 @@ const App = () => {
       {/* <UseEffectHook/> */}
       {/* <FunctionalHook/> */}
       {/* <ClassHooks/> */}
-      <FunctionalHooks/>
+      {/* <FunctionalHooks/> */}
+      {/* <ClassMouse/> */}
+      <FunctionalMouse/>
     </div>
   );
 }
