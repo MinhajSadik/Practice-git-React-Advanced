@@ -8,7 +8,8 @@ import './App.css';
 // import ClassHooks from './Components/UseEffectHook/ClassHooks';
 // import FunctionalHooks from './Components/UseEffectHook/FunctionalHooks';
 // import ClassMouse from './Components/ClassMouse/ClassMouse';
-import FunctionalMouse from './Components/ClassMouse/FunctionalMouse';
+// import FunctionalMouse from './Components/ClassMouse/FunctionalMouse';
+import MouseContainer from './Components/ClassMouse/MouseContainer';
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
       {/* <ClassHooks/> */}
       {/* <FunctionalHooks/> */}
       {/* <ClassMouse/> */}
-      <FunctionalMouse/>
+      {/* <FunctionalMouse/> */}
+      <MouseContainer/>
     </div>
   );
 }

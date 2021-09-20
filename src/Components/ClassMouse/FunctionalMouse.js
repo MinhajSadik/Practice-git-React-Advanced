@@ -11,8 +11,15 @@ const FunctionalMouse = () => {
     }
 
     useEffect(() => {
+        console.log('useEffect called');
         window.addEventListener('mousemove', logMousePosition)
-    }, [])
+
+        return () => {
+            window.removeEventListener('mousemove', logMousePosition);
+            console.log('component unmouting code');
+        }
+    },[])
+
     return (
         <div>
             X -- {x} Y -- {y}
