@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 class UseEffectHook extends Component {
     state = {count: 0};
 
-    // componentDidMount() {
-    //     document.title = `Clicked ${this.state.count} times`
-    // }
-    // componentDidUpdate(prevProps, prevState) {
-    //     document.title = `Clicked ${this.state.count} times`
-    // }
+    componentDidMount() {
+        document.title = `Clicked ${this.state.count} times`
+    }
+    componentDidUpdate(prevProps, prevState) {
+        document.title = `Clicked ${this.state.count} times`
+    }
 
     render() {
         return (
