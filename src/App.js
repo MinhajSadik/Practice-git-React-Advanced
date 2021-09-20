@@ -9,7 +9,10 @@ import './App.css';
 // import FunctionalHooks from './Components/UseEffectHook/FunctionalHooks';
 // import ClassMouse from './Components/ClassMouse/ClassMouse';
 // import FunctionalMouse from './Components/ClassMouse/FunctionalMouse';
-import MouseContainer from './Components/ClassMouse/MouseContainer';
+// import MouseContainer from './Components/ClassMouse/MouseContainer';
+// import IntervalClassCounter from './Components/IntervalCounter/IntervalClassCounter';
+import IntervalHookCounter from './Components/IntervalCounter/IntervalHookCounter';
+
 
 const App = () => {
   return (
@@ -24,7 +27,9 @@ const App = () => {
       {/* <FunctionalHooks/> */}
       {/* <ClassMouse/> */}
       {/* <FunctionalMouse/> */}
-      <MouseContainer/>
+      {/* <MouseContainer/> */}
+      {/* <IntervalClassCounter /> */}
+      <IntervalHookCounter/>
     </div>
   );
 }
