@@ -4,7 +4,9 @@ import './App.css';
 // import Counter from './Components/Counter/Counter';
 // import HookObject from './Components/HooksObject/HooksObject';
 // import UseEffectHook from './Components/UseEffectHook/ClassHook';
-import FunctionalHook from './Components/UseEffectHook/FunctionalHook';
+// import FunctionalHook from './Components/UseEffectHook/FunctionalHook';
+// import ClassHooks from './Components/UseEffectHook/ClassHooks';
+import FunctionalHooks from './Components/UseEffectHook/FunctionalHooks';
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
       {/* <HookObject/> */}
       {/* <HooksArray/> */}
       {/* <UseEffectHook/> */}
-      <FunctionalHook/>
+      {/* <FunctionalHook/> */}
+      {/* <ClassHooks/> */}
+      <FunctionalHooks/>
     </div>
   );
 }
