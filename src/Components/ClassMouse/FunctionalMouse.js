@@ -15,6 +15,8 @@ const FunctionalMouse = () => {
         window.addEventListener('mousemove', logMousePosition)
 
         return () => {
+            // the point is note here when you want to execute some component cleanup code you include it in a function and return that function from the function passed to useEffect the cleanup code can be canceling subscriptions timers or even removing event handleers as we want.
+
             window.removeEventListener('mousemove', logMousePosition);
             console.log('component unmouting code');
         }
