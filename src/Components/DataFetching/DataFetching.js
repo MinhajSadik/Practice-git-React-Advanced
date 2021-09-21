@@ -1,20 +1,29 @@
 import React, { useEffect, useState } from 'react';
 
 function DataFetching() {
-    const [posts, setPosts] = useState([]);
+    const [post, setPost] = useState({});
+    const [id, setId] = useState(1);
+    // const [idFromButtonClick, setIdFromButtonClick] = useState(1)
+
 
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/posts')
+        fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
         .then(res => res.json())
-        .then(data => setPosts(data))
-    }, [])
+        .then(data => setPost(data))
+
+    }, [id])
+
     return (
         <div>
-            <ul>
+            <input type="text" value={id} onChange={(e) => setId(e.target.value)} />
+            {/* <button>Fetch Post</button> */}
+            {/* <ul>
                 {
                     posts.map((post) => (<li key={post.id}>{post.id}</li>))
                 }
-            </ul>
+            </ul> */}
+            <div>{post.title}</div>
+
         </div>
     )
 }
