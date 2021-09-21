@@ -13,7 +13,7 @@ class DataFetching extends Component {
     }
 
     render() {
-        return(
+        return (
             <div>
                 <ul>
                     {
