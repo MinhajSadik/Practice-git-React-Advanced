@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 
 function DataFetching() {
     const [post, setPost] = useState({});
-    const [id, setId] = useState(0);
-    const [idFromButtonClick, setIdFromButtonClick] = useState(0)
+    const [id, setId] = useState(1);
+    const [idFromButtonClick, setIdFromButtonClick] = useState(1)
 
     const handleClick = () => {
         setIdFromButtonClick(id)
